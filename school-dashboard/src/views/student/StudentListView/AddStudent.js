@@ -177,7 +177,7 @@ export default function SimpleModal(props) {
                     </Link>
                   </Typography>
                 </Box>
-                {Boolean(policy) && (
+                {!policy && (
                   <FormHelperText className={classes.test__warn} >
                     {"please accept terms and conditions"}
                   </FormHelperText>
